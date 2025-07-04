@@ -1,0 +1,11 @@
+cat > railway.toml << EOF
+[build]
+command = "echo 'Static site ready'"
+
+[deploy]
+startCommand = "python3 -m http.server 8080"
+EOF
+
+git add railway.toml
+git commit -m "Add Railway configuration"
+git push
