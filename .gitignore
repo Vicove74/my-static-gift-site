@@ -1,5 +1,4 @@
 # WordPress uploads and cache
-wp-content/uploads/
 wp-content/cache/
 wp-content/backups/
 wp-content/upgrade/
