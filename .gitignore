@@ -1,10 +1,4 @@
-# Създай .gitignore файл
-echo "wp-content/uploads/" > .gitignore
-echo "wp-content/cache/" >> .gitignore
-echo "wp-content/backups/" >> .gitignore
-
-# Премахни проблемните файлове от Git tracking
-git rm -r --cached wp-content/uploads/
-git add .gitignore
-git commit -m "Add .gitignore and remove uploads folder"
-git push
+wp-content/uploads/
+wp-content/cache/
+wp-content/backups/
+*.log
